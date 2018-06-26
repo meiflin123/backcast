@@ -22,6 +22,7 @@ describe ('VideoPlayerView', function() {
 
   it('should re-render when an item is selected', function() {
     collection.at(0).select();
+    debugger;
     expect(view.render).to.have.been.called;
   });
 
