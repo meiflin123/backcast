@@ -9,7 +9,6 @@ var Videos = Backbone.Collection.extend({
     
   },
   search: function() {
-    
   }
   
 });
